@@ -20,6 +20,7 @@ html {
 
 p {
   margin-bottom: 2rem;
+  text-align: left;
 }
 
 body {
@@ -33,6 +34,8 @@ a {
   border: 1px solid #555;
   border-radius: 4px;
   color: white;
+  vertical-align: middle;
+  text-align: center;
 }
 
 .btn {
@@ -51,17 +54,24 @@ section {
   margin-left: .75rem;
 }
 
+a:hover {
+  color: #333;
+  background-color: #fff;
+}
+
 
 @media only screen and (min-width: 25em) {
 
  html{
-
+    line-height: 1.3;
+    font-size: 100%;
  }
 
 @media only screen and (min-width: 38em) {
 
   html {
     line-height: 1.4;
+    font-size: 100%;
   }
 
   h1 {
@@ -87,7 +97,6 @@ section {
     display: inline-block;
   }
 
-}
 
 @media only screen and (min-width: 60em) {
 
@@ -112,8 +121,33 @@ section {
   .part1 {
     padding-top: 0;
   }
+}
 
 
+@media only screen and (min-width: 85em) {
+  html{
+    font-size: 130%;
+    line-height: 1.5;
+  }
 
+  .part1 {
+    margin-left:10rem;
+  }
 
-@media only screen and (min-width: 90em) {
+  p {
+    max-width: 466px;
+    margin-top: 0;
+    margin-bottom: 1.8rem;
+  }
+
+  header {
+    margin-top: -4rem;
+    margin-bottom: 1.4rem;
+  }
+
+  img {
+    max-width: 520px;
+    margin-top: 1.5rem;
+  }
+
+}
