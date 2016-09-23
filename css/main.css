@@ -121,17 +121,18 @@ a:hover {
   .part1 {
     padding-top: 0;
   }
+
 }
 
+@media only screen and (min-width: 90em) {
 
-@media only screen and (min-width: 85em) {
-  html{
+  html {
     font-size: 130%;
     line-height: 1.5;
   }
 
   .part1 {
-    margin-left:10rem;
+    margin-left: 10rem;
   }
 
   p {
